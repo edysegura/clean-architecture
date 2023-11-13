@@ -6,7 +6,7 @@ services:
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: 123456
-      POSTGRES_DB: cccat14
+      POSTGRES_DB: app
     volumes:
       - ./create.sql:/docker-entrypoint-initdb.d/create.sql
     ports:
